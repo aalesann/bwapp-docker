@@ -1,14 +1,4 @@
 services:
-  mysql:
-    image: mysql:5.7
-    container_name: bwapp-mysql
-    restart: unless-stopped
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: bWAPP
-    volumes:
-      - mysql_data:/var/lib/mysql
-
   bwapp:
     build:
       context: .
@@ -17,17 +7,11 @@ services:
     ports:
       - "8080:80"
     restart: unless-stopped
-    depends_on:
-      - mysql
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: bWAPP
     volumes:
-      - bwapp_data:/var/www/html
-    links:
-      - mysql
+      - bwapp_www:/var/www/html
+      - bwapp_mysql:/var/lib/mysql
 
 volumes:
-  bwapp_data:
-  mysql_data:
+  bwapp_www:
+  bwapp_mysql:
 
