@@ -1,3 +1,7 @@
+![https://blog.segu-info.com.ar/2014/03/bwapp-aplicacion-web-insegura-para.html](https://blog.segu-info.com.ar/2014/03/bwapp-aplicacion-web-insegura-para.html)
+
+# bWAPP v2.2 + Docker Compose
+
 Este repositorio contiene una configuración completa de **bWAPP** (an extremely buggy web app) lista para levantar mediante **Docker Compose**, incluyendo:
 
 - Soporte para **CAPTCHA funcional** (extensión PHP-GD instalada)
