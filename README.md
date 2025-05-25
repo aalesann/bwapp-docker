@@ -1,4 +1,4 @@
-![https://blog.segu-info.com.ar/2014/03/bwapp-aplicacion-web-insegura-para.html](https://blog.segu-info.com.ar/2014/03/bwapp-aplicacion-web-insegura-para.html)
+![https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLH40iVdIn4bCRGh2g98PiclKoxeaPwpi-vOPYXjxx2atkoI-TvAectcyOkOXEdNX6vMQTwQiOz792RxC2ileMNJrEpIfn82ZSpFqa2pVhxbr0DXQ-8cmHGhTLYb7fGLz3Lm94hjhZw3A9/s400/logo_3.png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLH40iVdIn4bCRGh2g98PiclKoxeaPwpi-vOPYXjxx2atkoI-TvAectcyOkOXEdNX6vMQTwQiOz792RxC2ileMNJrEpIfn82ZSpFqa2pVhxbr0DXQ-8cmHGhTLYb7fGLz3Lm94hjhZw3A9/s400/logo_3.png)
 
 # bWAPP v2.2 + Docker Compose
 
