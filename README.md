@@ -79,8 +79,6 @@ docker compose logs -f
 ├── docker-compose.yml     # Orquestación con volúmenes
 └── README.md              # Este archivo
 
----
-
 🛡️ Advertencia
 Este entorno contiene vulnerabilidades intencionales.
 No lo uses en servidores públicos ni en producción. Solo para fines educativos.
