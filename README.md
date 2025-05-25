@@ -24,6 +24,7 @@ Este repositorio contiene una configuración completa de **bWAPP** (an extremely
 ```bash
 git clone https://github.com/aalesann/bwapp-docker.git
 cd bwapp-docker
+```
 
 2. Levantar los servicios
 
@@ -36,7 +37,10 @@ docker compose up --build -d
 ```bash
 http://localhost:8080/install.php
 ```
+
 Hacé clic en ```click here``` para crear la base de datos.
+
+---
 
 🧪 Probá el CAPTCHA
 
@@ -44,6 +48,8 @@ Visitá el desafío:
 ```bash
 http://localhost:8080/ba_captcha_bypass.php
 ```
+
+---
 
 🧹 Comandos útiles
 
@@ -65,6 +71,8 @@ docker compose down --volumes
 docker compose logs -f
 ```
 
+---
+
 🐳 Estructura del proyecto
 
 .
@@ -72,12 +80,18 @@ docker compose logs -f
 ├── docker-compose.yml     # Orquestación con volúmenes
 └── README.md              # Este archivo
 
+---
+
 🛡️ Advertencia
 Este entorno contiene vulnerabilidades intencionales.
 No lo uses en servidores públicos ni en producción. Solo para fines educativos.
 
+---
+
 👨💻 Autor
 Ds: C3rb3r0
+
+---
 
 🏷️ Créditos
 Este proyecto utiliza como base la imagen de Docker raesene/bwapp, creada por Rory McCune (raesene), disponible públicamente en Docker Hub.
