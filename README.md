@@ -1,7 +1,3 @@
-from pathlib import Path
-
-readme_content = """# bWAPP Dockerizado con CAPTCHA y Persistencia
-
 Este repositorio contiene una configuración completa de **bWAPP** (an extremely buggy web app) lista para levantar mediante **Docker Compose**, incluyendo:
 
 - Soporte para **CAPTCHA funcional** (extensión PHP-GD instalada)
