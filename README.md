@@ -75,7 +75,6 @@ docker compose logs -f
 
 🐳 Estructura del proyecto
 
-.
 ├── Dockerfile             # Imagen personalizada basada en raesene/bwapp
 ├── docker-compose.yml     # Orquestación con volúmenes
 └── README.md              # Este archivo
