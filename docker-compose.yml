@@ -8,6 +8,9 @@ services:
     ports:
       - "80:80"
     restart: unless-stopped
+    networks:
+      bwappnet:
+        ipv4_address: 192.168.0.50
     volumes:
       - bwapp_www:/var/www/html
       - bwapp_mysql:/var/lib/mysql
@@ -16,3 +19,9 @@ volumes:
   bwapp_www:
   bwapp_mysql:
 
+networks:
+  bwappnet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.0.0/24
