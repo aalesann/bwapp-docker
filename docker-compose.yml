@@ -6,7 +6,7 @@ services:
     image: alesandocker/bwapp-compose:v1
     container_name: bwapp
     ports:
-      - "8080:80"
+      - "80:80"
     restart: unless-stopped
     volumes:
       - bwapp_www:/var/www/html
