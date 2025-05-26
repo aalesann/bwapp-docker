@@ -35,7 +35,7 @@ docker compose up --build -d
 3. Inicializar bWAPP (Ejecutar por única vez)
 
 ```bash
-http://localhost:8080/install.php
+http://localhost/install.php
 ```
 
 Hacé clic en ```click here``` para crear la base de datos.
@@ -46,7 +46,7 @@ Hacé clic en ```click here``` para crear la base de datos.
 
 Visitá el desafío:
 ```bash
-http://localhost:8080/ba_captcha_bypass.php
+http://localhost/ba_captcha_bypass.php
 ```
 
 ---
@@ -75,13 +75,18 @@ docker compose logs -f
 
 🐳 Estructura del proyecto
 
-├── Dockerfile             # Imagen personalizada basada en raesene/bwapp
+```text
+.
 ├── docker-compose.yml     # Orquestación con volúmenes
+├── Dockerfile             # Imagen personalizada basada en raesene/bwapp
 └── README.md              # Este archivo
+```
 
-🛡️ Advertencia
-Este entorno contiene vulnerabilidades intencionales.
-No lo uses en servidores públicos ni en producción. Solo para fines educativos.
+🛡️ Advertencias
+- Este entorno contiene vulnerabilidades intencionales.
+- No lo uses en servidores públicos ni en producción. Solo para fines educativos.
+- Este entorno utiliza la configuración de red de la máquina host, por lo tanto, verifique que no haya ningún servicio corriendo en el puerto 80
+- Si ocurre un conflicto de puertos, puede cambiar el puerto en el archivo ```docker-compose.yml```
 
 ---
 
@@ -91,5 +96,6 @@ Ds: C3rb3r0
 ---
 
 🏷️ Créditos
+
 Este proyecto utiliza como base la imagen de Docker raesene/bwapp, creada por Rory McCune (raesene), disponible públicamente en Docker Hub.
 
