@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: alesandocker/bwapp-compose:v1
+    image: alesandocker/bwapp-docker
     container_name: bwapp
     ports:
       - "80:80"
