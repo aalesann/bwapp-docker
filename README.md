@@ -7,6 +7,7 @@ Este repositorio contiene una configuración completa de **bWAPP** (an extremely
 - Soporte para **CAPTCHA funcional** (extensión PHP-GD instalada)
 - **Persistencia** de la base de datos y del entorno bWAPP (no es necesario volver a ejecutar `/install.php`)
 - Imagen personalizada basada en `raesene/bwapp`
+- Dependiendo de tu instalación de Docker, el comando para interactuar con Docker Compose puede variar entre ```docker compose``` o con un guión en medio ```docker-compose```
 
 ---
 
@@ -19,26 +20,26 @@ Este repositorio contiene una configuración completa de **bWAPP** (an extremely
 
 ## 📦 Instalación y uso
 
-1. **Clonar el repositorio**
+1. **Clona el repositorio**
 
 ```bash
 git clone https://github.com/aalesann/bwapp-docker.git
 cd bwapp-docker
 ```
 
-2. Levantar los servicios
+2. Levanta los servicios
 
 ```bash
 docker compose up --build -d
 ```
 
-3. Inicializar bWAPP (Ejecutar por única vez)
+3. Inicializar bWAPP
 
 ```bash
 http://localhost/install.php
 ```
 
-Hacé clic en ```click here``` para crear la base de datos.
+Hacé clic en ```here``` para crear la base de datos.
 
 ---
 
@@ -85,13 +86,13 @@ docker compose logs -f
 🛡️ Advertencias
 - Este entorno contiene vulnerabilidades intencionales.
 - No lo uses en servidores públicos ni en producción. Solo para fines educativos.
-- Este entorno utiliza la configuración de red de la máquina host, por lo tanto, verifique que no haya ningún servicio corriendo en el puerto 80
+- Este entorno utiliza la configuración de red de la máquina host, por lo tanto, verifica que no haya ningún servicio corriendo en el puerto 80.
 - Si ocurre un conflicto de puertos, puede cambiar el puerto en el archivo ```docker-compose.yml```
 
 ---
 
 👨💻 Autor
-Ds: C3rb3r0
+Ds: c3rb3r0
 
 ---
 
